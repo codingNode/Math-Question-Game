@@ -256,6 +256,10 @@ button:active {
   color: var(--danger);
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
 /* Media Query: Laptop */
 @media screen and (max-width: 1800px) {
   .game-container {
@@ -266,6 +270,7 @@ button:active {
     top: 380px;
   }
 }
+
 
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 500px) {
